@@ -4,29 +4,24 @@ function Footer() {
   return (
     <footer className="footer mt-auto py-3 bg-dark">
       <div className="container">
-        <p className="text-light bg-dark">
-          App desenvolvido por{" "}
+        <p className="text-light bg-dark d-flex flex-column m-2">
           <a
-            href="https://github.com/acenelio"
+            className="text-light mb-2 text-decoration-none"
+            href="https://github.com/ceconcarlsen"
             target="_blank"
             rel="noreferrer"
           >
             Gabriel Cecon Carlsen
           </a>
-        </p>
-        <p className="text-light">
-          <small>
-            <strong>Semana Spring React</strong>
-            <br />
-            Evento promovido pela escola DevSuperior:{" "}
-            <a
-              href="https://instagram.com/devsuperior.ig"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @devsuperior.ig
-            </a>
-          </small>
+          <span className="mb-2 fw-bolder text-warning">Semana Spring React</span>
+          <a
+            className="text-light text-decoration-none"
+            href="https://instagram.com/devsuperior.ig"
+            target="_blank"
+            rel="noreferrer"
+          >
+            @devsuperior.ig
+          </a>
         </p>
       </div>
     </footer>
